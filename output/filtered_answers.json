@@ -1,0 +1,18 @@
+[
+    {
+        "answer": "A",
+        "reasoning": "Ravi's mother's only son is Ravi himself. His wife is Ravi's sister. Thus, the woman is Ravi's sister."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Auto-extracted due to JSON parse error."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Auto-extracted due to JSON parse error."
+    },
+    {
+        "answer": "D",
+        "reasoning": "G is at position 1. Since E is to the immediate left of F, and F is opposite G, F is at position 5. E is at position 4. H is between E and G, so H is at position 3. Third to the left of H (position 3) is position 9, which is position 1 (since it's circular). Position 1 is G, but D is opposite A, and A is between B and C. Thus, D is third to the left of H."
+    }
+]

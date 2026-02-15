@@ -1,0 +1,50 @@
+[
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother\u2019s only son\u2019s wife.\u2019 How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Mother",
+            "C) C) Aunt",
+            "D) D) Cousin"
+        ],
+        "answer": "B",
+        "explanation": "Ravi's mother's only son is Ravi himself. His wife is Ravi's mother. The daughter of Ravi's mother is Ravi's sister. Therefore, the woman is Ravi's sister, making her his sister, not mother, aunt, or cousin."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are eight people seated around a circular table, with four facing the center and four facing outward. A is seated between B and C, who are not adjacent to each other. D is seated opposite E, who is seated two seats to the left of F. G is seated directly between H and F, and H is seated opposite A. If the person facing outward is seated between two people facing inward, and the person facing inward is seated between two people facing outward, who is seated directly opposite the person who is seated between D and E?",
+        "choices": [
+            "A) A) G",
+            "B) B) H",
+            "C) C) F",
+            "D) D) B"
+        ],
+        "answer": "D",
+        "explanation": "The arrangement is: A (inward), B (outward), C (inward), D (outward), E (inward), F (outward), G (inward), H (outward). D is opposite E. The person between D and E is F. The person opposite F is B."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother\u2019s only sibling.\u2019 How is the woman related to Ravi?",
+        "choices": [
+            "A) A) Aunt",
+            "B) B) Sister",
+            "C) C) Mother",
+            "D) D) Cousin"
+        ],
+        "answer": "D",
+        "explanation": "Ravi's mother's only sibling is his maternal uncle. The daughter of the uncle is Ravi's cousin. Therefore, the woman is Ravi's cousin."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are 8 people sitting around a circular table, each facing the center. A is sitting between B and C. D is sitting opposite A. E is sitting to the immediate left of F, who is sitting opposite G. H is sitting between E and G. If G is sitting at position 1, who is sitting third to the left of H?",
+        "choices": [
+            "A) B",
+            "B) C",
+            "C) D",
+            "D) E"
+        ],
+        "answer": "A",
+        "explanation": "With G at position 1, the arrangement clockwise is G, H, E, F, D, A, C, B. Third to the left of H (position 2) is position 7, which is B."
+    }
+]
